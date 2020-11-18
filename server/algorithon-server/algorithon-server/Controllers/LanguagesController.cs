@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using algorithon_server.Models;
+using algorithon_server.Utils.Languages;
 using Microsoft.AspNetCore.Mvc;
 
 namespace algorithon_server.Controllers
@@ -9,10 +11,17 @@ namespace algorithon_server.Controllers
     [Route("[controller]")]
     public class LanguagesController : ControllerBase
     {
+        private static readonly Language[] Languages = new LanguagesTable().getLanguagesTable();
+        
         [HttpGet]
-        public IEnumerable<Language[]> Get()
+        public AlgorithonResponse Get()
         {
-            return;
+            return new AlgorithonResponse()
+            {
+                Message = "OK",
+                Data = Languages.ToArray(),
+                Error = null,
+            };
         }
     }
 }
