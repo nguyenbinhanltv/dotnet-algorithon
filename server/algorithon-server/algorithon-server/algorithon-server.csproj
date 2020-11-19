@@ -5,5 +5,11 @@
         <RootNamespace>algorithon_server</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="DotNetEnv" Version="1.4.0" />
+      <PackageReference Include="lodash" Version="4.17.11" />
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    </ItemGroup>
+
 
 </Project>

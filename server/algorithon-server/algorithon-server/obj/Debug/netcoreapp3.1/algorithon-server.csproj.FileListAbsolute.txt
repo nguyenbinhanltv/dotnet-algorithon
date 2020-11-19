@@ -38,3 +38,6 @@ C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\al
 C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\obj\Debug\netcoreapp3.1\staticwebassets\algorithon-server.StaticWebAssets.Manifest.cache
 C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\obj\Debug\netcoreapp3.1\staticwebassets\algorithon-server.StaticWebAssets.xml
 C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\obj\Debug\netcoreapp3.1\algorithon-server.genruntimeconfig.cache
+C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\DotNetEnv.dll
+C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\obj\Debug\netcoreapp3.1\algorithon-server.csproj.CopyComplete
