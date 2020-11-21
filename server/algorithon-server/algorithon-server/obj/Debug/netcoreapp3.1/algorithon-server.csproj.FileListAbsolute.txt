@@ -41,3 +41,33 @@ C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\al
 C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\DotNetEnv.dll
 C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\obj\Debug\netcoreapp3.1\algorithon-server.csproj.CopyComplete
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\appsettings.json
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\algorithon-server.exe
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\algorithon-server.deps.json
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\algorithon-server.runtimeconfig.json
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\algorithon-server.runtimeconfig.dev.json
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\algorithon-server.dll
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\algorithon-server.pdb
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\DotNetEnv.dll
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\obj\Debug\netcoreapp3.1\algorithon-server.csprojAssemblyReference.cache
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\obj\Debug\netcoreapp3.1\algorithon-server.AssemblyInfoInputs.cache
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\obj\Debug\netcoreapp3.1\algorithon-server.AssemblyInfo.cs
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\obj\Debug\netcoreapp3.1\algorithon-server.csproj.CoreCompileInputs.cache
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\obj\Debug\netcoreapp3.1\algorithon-server.MvcApplicationPartsAssemblyInfo.cache
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\obj\Debug\netcoreapp3.1\algorithon-server.RazorTargetAssemblyInfo.cache
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\obj\Debug\netcoreapp3.1\algorithon-server.csproj.CopyComplete
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\obj\Debug\netcoreapp3.1\staticwebassets\algorithon-server.StaticWebAssets.Manifest.cache
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\obj\Debug\netcoreapp3.1\staticwebassets\algorithon-server.StaticWebAssets.xml
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\obj\Debug\netcoreapp3.1\algorithon-server.dll
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\obj\Debug\netcoreapp3.1\algorithon-server.pdb
+E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\obj\Debug\netcoreapp3.1\algorithon-server.genruntimeconfig.cache

@@ -1,15 +1,16 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\black\\OneDrive\\Máy tính\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
+    "projectUniqueName": "E:\\.Net\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
     "projectName": "algorithon-server",
-    "projectPath": "C:\\Users\\black\\OneDrive\\Máy tính\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
-    "outputPath": "C:\\Users\\black\\OneDrive\\Máy tính\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\obj\\",
+    "projectPath": "E:\\.Net\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
+    "outputPath": "E:\\.Net\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
     ],
     "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
@@ -30,9 +31,17 @@
           "target": "Package",
           "version": "[1.4.0, )"
         },
+        "Microsoft.AspNetCore.Authentication.JwtBearer": {
+          "target": "Package",
+          "version": "[3.1.10, )"
+        },
         "Newtonsoft.Json": {
           "target": "Package",
           "version": "[12.0.3, )"
+        },
+        "System.IdentityModel.Tokens.Jwt": {
+          "target": "Package",
+          "version": "[6.8.0, )"
         },
         "lodash": {
           "target": "Package",
@@ -57,7 +66,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
     }
   }
 }
