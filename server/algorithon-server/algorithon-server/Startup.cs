@@ -34,7 +34,7 @@ namespace algorithon_server
             services.Configure<AppSetting>(Configuration.GetSection("AppSettings"));
             services.AddScoped<IUserService, UserService>();
 
-            services.AddMvc(options => options.EnableEndpointRouting = false);
+            // services.AddMvc(options => options.EnableEndpointRouting = false);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -45,7 +45,7 @@ namespace algorithon_server
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+            // app.UseHttpsRedirection();
 
             app.UseRouting();
 
@@ -57,10 +57,11 @@ namespace algorithon_server
 
             // custom jwt auth middleware
             app.UseMiddleware<JwtMiddleware>();
-            app.UseMvc();
+            // app.UseMvc();
             app.UseAuthorization();
             
-            app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+            // app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+            app.UseEndpoints(x => x.MapControllers());
         }
     }
 }

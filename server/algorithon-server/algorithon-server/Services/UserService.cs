@@ -17,8 +17,8 @@ namespace algorithon_server.Services
         // hardcode, get from database later
         private List<User> _users = new List<User>
         {
-            new User { Id = "1", FirstName = "Test", LastName = "User", UserName = "test", Password = "test" },
-            new User { Id = "2", FirstName = "Test", LastName = "User", UserName = "test1", Password = "123456" }
+            new User { Id = "1", FirstName = "Test", LastName = "User", UserName = "test", Password = "test", Email = "user@gmail.com" },
+            new User { Id = "2", FirstName = "Test", LastName = "User", UserName = "test1", Password = "123456", Email = "123@gmail.com" }
         };
 
         private readonly AppSetting _appSettings;
