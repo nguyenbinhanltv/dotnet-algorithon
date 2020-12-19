@@ -78,3 +78,13 @@ C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\al
 C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\DnsClient.dll
+C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\MongoDB.LibMongocrypt.dll
+C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\SharpCompress.dll
+C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\runtimes\win\native\libzstd.dll
+C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy32.dll
+C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy64.dll
+C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\runtimes\win\native\mongocrypt.dll
