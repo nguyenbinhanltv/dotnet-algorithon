@@ -13,15 +13,15 @@ namespace algorithon_server.Utils.Jdoodle
 
         public async Task<string> PostRunRequest(String lang,String index, String program)
         {
-            DotNetEnv.Env.Load("../Configs/.env");
             HttpClient http = new HttpClient();
-            var path = System.Environment.GetEnvironmentVariable("JDOODLE_ENDPOINT_EXECUTE");
+            var path = "https://api.jdoodle.com/execute";
+            Console.WriteLine(path);
             
             this._data.language = lang;
             this._data.versionIndex = index;
             this._data.script = program;
-            this._data.clientId = System.Environment.GetEnvironmentVariable("JDOODLE_CLIENT_ID");
-            this._data.clientSecret = System.Environment.GetEnvironmentVariable("JDOODLE_CLIENT_SECRET");
+            this._data.clientId = "c134cb026eddc64eb67763eac076107f";
+            this._data.clientSecret = "ba9217cb231136b86118ee9ad0cc878c0391dfbfe359d34d7907b3f36c6b20c3";
             var json = JsonConvert.SerializeObject(this._data);
             var data = new StringContent(json, Encoding.UTF8, "application/json");
 

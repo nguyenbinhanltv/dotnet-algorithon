@@ -71,3 +71,10 @@ E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\obj\Debug\n
 E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\obj\Debug\netcoreapp3.1\algorithon-server.dll
 E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\obj\Debug\netcoreapp3.1\algorithon-server.pdb
 E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\obj\Debug\netcoreapp3.1\algorithon-server.genruntimeconfig.cache
+C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
