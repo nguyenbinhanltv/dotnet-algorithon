@@ -15,8 +15,7 @@ namespace algorithon_server.Utils.Jdoodle
         {
             HttpClient http = new HttpClient();
             var path = "https://api.jdoodle.com/execute";
-            Console.WriteLine(path);
-            
+
             this._data.language = lang;
             this._data.versionIndex = index;
             this._data.script = program;
