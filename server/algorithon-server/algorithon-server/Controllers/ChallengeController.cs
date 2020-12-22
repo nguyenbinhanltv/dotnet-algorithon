@@ -16,9 +16,15 @@ namespace algorithon_server.Controllers
         }
 
         [HttpGet]
-        public IActionResult Get()
+        public IActionResult GetAll()
         {
-            return Ok(_challengeService.Get());
+            return Ok(_challengeService.GetAll());
+        }
+        
+        [HttpGet("{challengeId}")]
+        public IActionResult GetById(string challengeid)
+        {
+            return Ok(_challengeService.GetById(challengeid));
         }
 
         [HttpPost]
@@ -28,19 +34,19 @@ namespace algorithon_server.Controllers
             return Ok();
         }
         
-        // [HttpPut("{id:length(24)}")]
-        // public IActionResult Update(string id, Challenge challengeIn)
-        // {
-        //     var challenge = _challengeService.Get(id);
-        //
-        //     if (challenge == null)
-        //     {
-        //         return NotFound();
-        //     }
-        //
-        //     _challengeService.Update(id, challengeIn);
-        //
-        //     return NoContent();
-        // }
+        [HttpPut("{id:length(24)}")]
+        public IActionResult Update(string id, Challenge challengeIn)
+        {
+            var challenge = _challengeService.GetById(id);
+        
+            if (challenge == null)
+            {
+                return NotFound();
+            }
+        
+            _challengeService.Update(id, challengeIn);
+        
+            return NoContent();
+        }
     }
 }

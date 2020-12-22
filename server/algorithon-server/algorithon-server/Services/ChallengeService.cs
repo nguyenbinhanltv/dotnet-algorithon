@@ -19,14 +19,14 @@ namespace algorithon_server.Services
             _challenge = db.client.GetDatabase("dotnet-algo").GetCollection<Challenge>("challenge");
         }
         
-        public async Task<List<Challenge>> Get()
+        public async Task<List<Challenge>> GetAll()
         {
-            return _challenge.Find(new BsonDocument()).ToListAsync().Result;
+            return _challenge.Find(challenge => true).ToListAsync().Result;
         }
         
-        public async Task<Challenge> Get(string id) =>
-            await _challenge.Find<Challenge>(challenge => challenge.Id == id).FirstOrDefaultAsync();
-
+        public Challenge GetById(string id) =>
+             _challenge.Find<Challenge>(challenge => challenge.Id == id).FirstOrDefaultAsync().Result;
+        
         public async Task<Challenge> Create(Challenge challenge)
         {
             await _challenge.InsertOneAsync(challenge);

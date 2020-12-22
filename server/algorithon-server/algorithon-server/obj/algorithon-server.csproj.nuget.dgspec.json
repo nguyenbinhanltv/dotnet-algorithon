@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\.Net\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj": {}
+    "C:\\Users\\uyent\\Desktop\\New folder (2)\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj": {}
   },
   "projects": {
-    "E:\\.Net\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj": {
+    "C:\\Users\\uyent\\Desktop\\New folder (2)\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\.Net\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
+        "projectUniqueName": "C:\\Users\\uyent\\Desktop\\New folder (2)\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
         "projectName": "algorithon-server",
-        "projectPath": "E:\\.Net\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "E:\\.Net\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\obj\\",
+        "projectPath": "C:\\Users\\uyent\\Desktop\\New folder (2)\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
+        "packagesPath": "C:\\Users\\uyent\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\uyent\\Desktop\\New folder (2)\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -86,16 +86,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.10, 3.1.10]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

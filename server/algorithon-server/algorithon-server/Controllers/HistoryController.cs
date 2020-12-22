@@ -16,7 +16,7 @@ namespace algorithon_server.Controllers
         }
 
         [HttpGet]
-        public IActionResult Get()
+        public IActionResult GetAll()
         {
             return Ok(_historyService.Get());
         }

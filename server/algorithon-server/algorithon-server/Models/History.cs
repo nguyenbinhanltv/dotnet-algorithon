@@ -8,7 +8,13 @@ namespace algorithon_server.Models
         
         public string Id = new IdGenerator(0).CreateId().ToString();
 
-        public Id HistoryId { get ; }
+        public string HistoryId
+        {
+            get
+            {
+                return this.Id;
+            }
+        }
 
         public string StartAt { get; set; }
         
