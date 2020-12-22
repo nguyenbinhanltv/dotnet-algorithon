@@ -36,6 +36,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "DnsClient": {
+              "target": "Package",
+              "version": "[1.4.0-beta-20200912.4, )"
+            },
             "DotNetEnv": {
               "target": "Package",
               "version": "[1.4.0, )"

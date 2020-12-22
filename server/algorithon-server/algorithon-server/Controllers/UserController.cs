@@ -1,14 +1,8 @@
-using System;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Security.Cryptography;
 using System.Threading.Tasks;
 using algorithon_server.Interfaces;
 using algorithon_server.Models;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
-using MongoDB.Bson;
 
 namespace algorithon_server.Controllers
 {
@@ -30,25 +24,27 @@ namespace algorithon_server.Controllers
             var response = _userService.Authenticate(model);
 
             if (response == null)
-                return BadRequest(new { message = "Username or password is incorrect" });
+                return BadRequest(new {message = "Username or password is incorrect"});
 
             return Ok(response);
         }
 
         [Authorize]
-        [HttpGet("getAll")]
-        // /user/getAll
-        public IActionResult GetAll()
+        [HttpPost("getbytoken")]
+        // /user/getbytoken
+        public IActionResult GetById(TokenDto tokenDto)
         {
-            return Ok(_userService.GetAll());
-        }
+            var response = _userService.GetByToken(tokenDto.Token);
 
-        [Authorize]
-        [HttpGet("getById")]
-        // /user/getById
-        public IActionResult GetById([FromQuery]string id)
-        {
-            return Ok(_userService.GetById(id));
+            if (response == null) return BadRequest();
+            return Ok(new User()
+            {
+                Email = response.Email,
+                FirstName = response.FirstName,
+                LastName = response.LastName,
+                Id = response.Id,
+                UserName = response.UserName
+            });
         }
 
         [HttpPost("signup")]
@@ -60,8 +56,9 @@ namespace algorithon_server.Controllers
                 Email = userDto.Email,
                 FirstName = userDto.FirstName,
                 LastName = userDto.LastName,
-                Password = userDto.Password.GetHashCode().ToString(),
-                UserName = userDto.UserName
+                Password = userDto.Password,
+                UserName = userDto.UserName,
+                Token = ""
             };
             var response = _userService.SignUp(user);
             if (response.Result)
@@ -90,5 +87,11 @@ namespace algorithon_server.Controllers
         
         [Required]
         public string Password { get; set; }
+    }
+
+    public class TokenDto
+    {
+        [Required]
+        public string Token { get; set; }
     }
 }

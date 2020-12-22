@@ -9,8 +9,8 @@ namespace algorithon_server.Interfaces
     {
         AuthenticateResponse Authenticate(AuthenticateRequest model);
         IEnumerable<User> GetAll();
+        User GetByToken(string token);
         User GetById(string id);
-
         Task<bool> SignUp(User user);
     }
 }
