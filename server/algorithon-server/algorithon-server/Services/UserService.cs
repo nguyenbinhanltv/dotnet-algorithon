@@ -76,6 +76,7 @@ namespace algorithon_server.Services
 
         public async Task<bool> SignUp(User user)
         {
+            // check if username already exist.
             var flag = await _collection.Find(x => x.UserName == user.UserName).CountDocumentsAsync();
 
             if (flag > 0)
