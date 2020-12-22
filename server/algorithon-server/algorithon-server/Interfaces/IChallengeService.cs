@@ -6,9 +6,9 @@ namespace algorithon_server.Interfaces
 {
     public interface IChallengeService
     {
-        Task<List<Challenge>> Get();
+        Task<List<Challenge>> GetAll();
 
-        Task<Challenge> Get(string challenge);
+        Challenge GetById(string challenge);
 
         Task<Challenge> Create(Challenge challenge);
 
