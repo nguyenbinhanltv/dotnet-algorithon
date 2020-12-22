@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using System.Threading.Tasks;
+using algorithon_server.Controllers;
 using algorithon_server.Models;
 
 namespace algorithon_server.Interfaces
@@ -8,5 +10,7 @@ namespace algorithon_server.Interfaces
         AuthenticateResponse Authenticate(AuthenticateRequest model);
         IEnumerable<User> GetAll();
         User GetById(string id);
+
+        Task<bool> SignUp(User user);
     }
 }

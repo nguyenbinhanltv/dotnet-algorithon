@@ -4,11 +4,16 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
 using System.Text;
+using System.Threading.Tasks;
+using algorithon_server.Configs;
+using algorithon_server.Controllers;
 using algorithon_server.Helpers;
 using algorithon_server.Interfaces;
 using algorithon_server.Models;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using MongoDB.Bson;
+using MongoDB.Driver;
 
 namespace algorithon_server.Services
 {
@@ -23,12 +28,14 @@ namespace algorithon_server.Services
 
         private readonly AppSetting _appSettings;
 
+        private IMongoCollection<User> _collection;
         // get Secret which is the secret key.
         public UserService(IOptions<AppSetting> appSettings)
         {
             _appSettings = appSettings.Value;
+            _collection = new Mongodb().client.GetDatabase("dotnet-algo").GetCollection<User>("user");
         }
-
+        
         private string generateJwtToken(User user)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
@@ -47,7 +54,7 @@ namespace algorithon_server.Services
         
         public AuthenticateResponse Authenticate(AuthenticateRequest model)
         {
-            var user = _users.SingleOrDefault(x => x.UserName == model.UserName && x.Password == model.Password);
+            var user = _collection.Find(x => x.UserName == model.UserName && x.Password == model.Password.GetHashCode().ToString()).SingleOrDefault();
             
             // if user not found -> return null
             if (user == null) return null;
@@ -65,6 +72,19 @@ namespace algorithon_server.Services
         public User GetById(string id)
         {
             return _users.FirstOrDefault(x => x.Id == id);
+        }
+
+        public async Task<bool> SignUp(User user)
+        {
+            var flag = await _collection.Find(x => x.UserName == user.UserName).CountDocumentsAsync();
+
+            if (flag > 0)
+            {
+                return false;
+            }
+            await _collection.InsertOneAsync(user);
+
+            return true;
         }
     }
 }

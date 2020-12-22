@@ -1,7 +1,14 @@
+using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Security.Cryptography;
+using System.Threading.Tasks;
 using algorithon_server.Interfaces;
 using algorithon_server.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
+using MongoDB.Bson;
 
 namespace algorithon_server.Controllers
 {
@@ -29,11 +36,59 @@ namespace algorithon_server.Controllers
         }
 
         [Authorize]
-        [HttpGet]
-        // /user
+        [HttpGet("getAll")]
+        // /user/getAll
         public IActionResult GetAll()
         {
             return Ok(_userService.GetAll());
         }
+
+        [Authorize]
+        [HttpGet("getById")]
+        // /user/getById
+        public IActionResult GetById([FromQuery]string id)
+        {
+            return Ok(_userService.GetById(id));
+        }
+
+        [HttpPost("signup")]
+        // user/signup
+        public IActionResult SignUp(UserDto userDto)
+        {
+            User user = new User()
+            {
+                Email = userDto.Email,
+                FirstName = userDto.FirstName,
+                LastName = userDto.LastName,
+                Password = userDto.Password.GetHashCode().ToString(),
+                UserName = userDto.UserName
+            };
+            var response = _userService.SignUp(user);
+            if (response.Result)
+            {
+                return Ok();
+            }
+
+            return BadRequest(new {message = "username is already exist."});
+        }
+    }
+
+    public class UserDto
+    {
+        
+        [Required]
+        public string UserName { get; set; }
+        
+        [Required]
+        public string FirstName { get; set; }
+        
+        [Required]
+        public string LastName { get; set; }
+        
+        [Required]
+        public string Email { get; set; }
+        
+        [Required]
+        public string Password { get; set; }
     }
 }

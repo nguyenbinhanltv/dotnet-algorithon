@@ -23,6 +23,18 @@
           "lib/netstandard1.3/DotNetEnv.dll": {}
         }
       },
+      "IdGen/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/IdGen.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/IdGen.dll": {}
+        }
+      },
       "lodash/4.17.11": {
         "type": "package"
       },
@@ -1468,6 +1480,20 @@
         "dotnetenv.1.4.0.nupkg.sha512",
         "dotnetenv.nuspec",
         "lib/netstandard1.3/DotNetEnv.dll"
+      ]
+    },
+    "IdGen/3.0.0": {
+      "sha512": "CfrVGihH1xrWpJsqLy1mCtpZ0ztzd5SBjMv01sPwksmJ/7hxO6+VJKABFmEUDxsDFFxCKgH4nVffluH5ZnNUDA==",
+      "type": "package",
+      "path": "idgen/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "idgen.3.0.0.nupkg.sha512",
+        "idgen.nuspec",
+        "lib/netstandard1.1/IdGen.dll",
+        "lib/netstandard1.1/IdGen.xml",
+        "logo.png"
       ]
     },
     "lodash/4.17.11": {
@@ -5198,6 +5224,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "DotNetEnv >= 1.4.0",
+      "IdGen >= 3.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 3.1.10",
       "MongoDB.Driver >= 2.12.0-beta1",
       "Newtonsoft.Json >= 12.0.3",
@@ -5206,11 +5233,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Lan\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Asus\\.nuget\\packages\\": {}
+>>>>>>> 62a7b9180a38316e61fc9b122b398445e9fbb6ab
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Lan\\Desktop\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
       "projectName": "algorithon-server",
       "projectPath": "C:\\Users\\Lan\\Desktop\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
@@ -5219,15 +5251,28 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+      "projectUniqueName": "E:\\.Net\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
+      "projectName": "algorithon-server",
+      "projectPath": "E:\\.Net\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
+      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+      "outputPath": "E:\\.Net\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 62a7b9180a38316e61fc9b122b398445e9fbb6ab
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -5239,10 +5284,15 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "DotNetEnv": {
             "target": "Package",
             "version": "[1.4.0, )"
+          },
+          "IdGen": {
+            "target": "Package",
+            "version": "[3.0.0, )"
           },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
@@ -5275,6 +5325,16 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.10, 3.1.10]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -5283,7 +5343,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+>>>>>>> 62a7b9180a38316e61fc9b122b398445e9fbb6ab
       }
     }
   }
