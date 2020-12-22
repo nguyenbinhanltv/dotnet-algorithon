@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using algorithon_server.Configs;
 using algorithon_server.Interfaces;
 using algorithon_server.Models;
+using MongoDB.Bson;
 using MongoDB.Driver;
 
 namespace algorithon_server.Services
@@ -20,7 +21,7 @@ namespace algorithon_server.Services
         
         public async Task<List<Challenge>> Get()
         {
-            return _challenge.Find(FilterDefinition<Challenge>.Empty).ToListAsync().Result;
+            return _challenge.Find(new BsonDocument()).ToListAsync().Result;
         }
         
         public async Task<Challenge> Get(string id) =>
