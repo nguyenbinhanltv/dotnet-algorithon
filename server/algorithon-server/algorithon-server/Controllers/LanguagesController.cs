@@ -17,9 +17,9 @@ namespace algorithon_server.Controllers
         private static readonly Language[] Languages = new LanguagesTable().getLanguagesTable();
         
         [HttpGet]
-        public AlgorithonResponse Get()
+        public LanguageResponse Get()
         {
-            return new AlgorithonResponse()
+            return new LanguageResponse()
             {
                 Message = "OK",
                 Data = Languages.ToArray(),

@@ -17,4 +17,16 @@ namespace algorithon_server.Models
         [Required]
         public string Index { get; set; }
     }
+    
+    public class LanguageResponse
+    {
+        [Required]
+        public String Message { get; set; }
+        
+        [Required]
+        public String Error { get; set; }
+        
+        [Required]
+        public Array Data {get; set; }
+    }
 }
