@@ -142,3 +142,4 @@ E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\n
 E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\obj\Debug\netcoreapp3.1\scopedcss\bundle\algorithon-server.styles.css
 E:\.Net\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\IdGen.dll
 >>>>>>> 62a7b9180a38316e61fc9b122b398445e9fbb6ab
+C:\Users\black\OneDrive\Máy tính\dotnet-algorithon\server\algorithon-server\algorithon-server\bin\Debug\netcoreapp3.1\IdGen.dll
