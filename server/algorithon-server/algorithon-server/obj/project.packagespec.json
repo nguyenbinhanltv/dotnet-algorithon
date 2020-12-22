@@ -1,10 +1,17 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
+<<<<<<< HEAD
     "projectUniqueName": "C:\\Users\\uyent\\Desktop\\New folder (2)\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
     "projectName": "algorithon-server",
     "projectPath": "C:\\Users\\uyent\\Desktop\\New folder (2)\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
     "outputPath": "C:\\Users\\uyent\\Desktop\\New folder (2)\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\obj\\",
+=======
+    "projectUniqueName": "C:\\Users\\black\\OneDrive\\Máy tính\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
+    "projectName": "algorithon-server",
+    "projectPath": "C:\\Users\\black\\OneDrive\\Máy tính\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
+    "outputPath": "C:\\Users\\black\\OneDrive\\Máy tính\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\obj\\",
+>>>>>>> 9b3eb04048c9771603bbf60ec7d00bfc2b7f4529
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13,7 +20,6 @@
       "netcoreapp3.1"
     ],
     "sources": {
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
@@ -77,7 +83,11 @@
           "privateAssets": "all"
         }
       },
+<<<<<<< HEAD
       "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+=======
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+>>>>>>> 9b3eb04048c9771603bbf60ec7d00bfc2b7f4529
     }
   }
 }
