@@ -1,38 +1,24 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\Lan\\Desktop\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj": {}
+    "C:\\Users\\uyent\\Desktop\\New folder (2)\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lan\\Desktop\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj": {
+    "C:\\Users\\uyent\\Desktop\\New folder (2)\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lan\\Desktop\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
+        "projectUniqueName": "C:\\Users\\uyent\\Desktop\\New folder (2)\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
         "projectName": "algorithon-server",
-        "projectPath": "C:\\Users\\Lan\\Desktop\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
-        "packagesPath": "C:\\Users\\Lan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lan\\Desktop\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\obj\\",
+        "projectPath": "C:\\Users\\uyent\\Desktop\\New folder (2)\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
+        "packagesPath": "C:\\Users\\uyent\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\uyent\\Desktop\\New folder (2)\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Lan\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-    "E:\\.Net\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj": {}
-  },
-  "projects": {
-    "E:\\.Net\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\.Net\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
-        "projectName": "algorithon-server",
-        "projectPath": "E:\\.Net\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "E:\\.Net\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\uyent\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
->>>>>>> 62a7b9180a38316e61fc9b122b398445e9fbb6ab
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -96,16 +82,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.10, 3.1.10]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -114,11 +90,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
->>>>>>> 62a7b9180a38316e61fc9b122b398445e9fbb6ab
         }
       }
     }

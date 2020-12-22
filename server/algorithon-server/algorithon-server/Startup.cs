@@ -33,6 +33,7 @@ namespace algorithon_server
 
             services.Configure<AppSetting>(Configuration.GetSection("AppSettings"));
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IChallengeService, ChallengeService>();
 
             // services.AddMvc(options => options.EnableEndpointRouting = false);
         }
