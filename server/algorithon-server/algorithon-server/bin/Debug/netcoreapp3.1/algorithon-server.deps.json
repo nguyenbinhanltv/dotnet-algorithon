@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "algorithon-server/1.0.0": {
         "dependencies": {
+          "DnsClient": "1.4.0-beta-20200912.4",
           "DotNetEnv": "1.4.0",
           "IdGen": "3.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.10",
@@ -321,11 +322,11 @@
           "algorithon-server.dll": {}
         }
       },
-      "DnsClient/1.3.1": {
+      "DnsClient/1.4.0-beta-20200912.4": {
         "runtime": {
           "lib/netstandard2.1/DnsClient.dll": {
-            "assemblyVersion": "1.3.1.0",
-            "fileVersion": "1.3.1.0"
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.0.0"
           }
         },
         "compile": {
@@ -486,7 +487,7 @@
       },
       "MongoDB.Driver.Core/2.12.0-beta1": {
         "dependencies": {
-          "DnsClient": "1.3.1",
+          "DnsClient": "1.4.0-beta-20200912.4",
           "MongoDB.Bson": "2.12.0-beta1",
           "MongoDB.LibMongocrypt": "1.1.0-beta02",
           "SharpCompress": "0.23.0",
@@ -2922,12 +2923,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DnsClient/1.3.1": {
+    "DnsClient/1.4.0-beta-20200912.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-b9XczgqSjs3dd+OlV799jn+LXxdfirln1q36GKjs3QwWBhjhgIvgHLEG5s2VrBLcP4ogQjtA0PZ5+AmRJ35Vhg==",
-      "path": "dnsclient/1.3.1",
-      "hashPath": "dnsclient.1.3.1.nupkg.sha512"
+      "sha512": "sha512-MUlykbv9RZK1g2+ll+fqFLPS5lgGdyhN+tnkMT4hdWoz3h4W//igrQDhU2L1C34IBcgPLqzk4cW2Hmcs0eClZQ==",
+      "path": "dnsclient/1.4.0-beta-20200912.4",
+      "hashPath": "dnsclient.1.4.0-beta-20200912.4.nupkg.sha512"
     },
     "DotNetEnv/1.4.0": {
       "type": "package",

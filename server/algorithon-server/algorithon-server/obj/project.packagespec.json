@@ -1,11 +1,21 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
+<<<<<<< HEAD
+    "projectUniqueName": "C:\\Users\\uyent\\Desktop\\New folder (2)\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
+    "projectName": "algorithon-server",
+    "projectPath": "C:\\Users\\uyent\\Desktop\\New folder (2)\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
+    "outputPath": "C:\\Users\\uyent\\Desktop\\New folder (2)\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\obj\\",
+=======
     "projectUniqueName": "E:\\.Net\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
     "projectName": "algorithon-server",
     "projectPath": "E:\\.Net\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
     "outputPath": "E:\\.Net\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\obj\\",
+>>>>>>> 0d443360d3514226634e96a00a336e8b231c0e8d
     "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
     "originalTargetFrameworks": [
       "netcoreapp3.1"
     ],
@@ -27,6 +37,10 @@
   "frameworks": {
     "netcoreapp3.1": {
       "dependencies": {
+        "DnsClient": {
+          "target": "Package",
+          "version": "[1.4.0-beta-20200912.4, )"
+        },
         "DotNetEnv": {
           "target": "Package",
           "version": "[1.4.0, )"
