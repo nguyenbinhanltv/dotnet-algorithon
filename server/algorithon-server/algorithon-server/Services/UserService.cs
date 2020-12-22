@@ -54,14 +54,17 @@ namespace algorithon_server.Services
         
         public AuthenticateResponse Authenticate(AuthenticateRequest model)
         {
-            var user = _collection.Find(x => x.UserName == model.UserName && x.Password == model.Password.GetHashCode().ToString()).SingleOrDefault();
+            var user = _collection.Find(x => x.UserName == model.UserName && x.Password == model.Password).SingleOrDefaultAsync();
             
             // if user not found -> return null
             if (user == null) return null;
             // else, generateToken
-            var token = generateJwtToken(user);
-            
-            return new AuthenticateResponse(user, token);
+            var token = generateJwtToken(user.Result);
+
+            _collection.UpdateOneAsync(
+                Builders<User>.Filter.Eq("_id", user.Result.Id), 
+                Builders<User>.Update.Set("Token", token));
+            return new AuthenticateResponse(user.Result, token);
         }
 
         public IEnumerable<User> GetAll()
@@ -69,10 +72,16 @@ namespace algorithon_server.Services
             return _users;
         }
 
+        public User GetByToken(string token)
+        {
+            return _collection.Find(x => x.Token == token).FirstOrDefaultAsync().Result;
+        }
+
         public User GetById(string id)
         {
-            return _users.FirstOrDefault(x => x.Id == id);
+            return _collection.Find(x => x.Id == id).FirstOrDefault();
         }
+
 
         public async Task<bool> SignUp(User user)
         {
