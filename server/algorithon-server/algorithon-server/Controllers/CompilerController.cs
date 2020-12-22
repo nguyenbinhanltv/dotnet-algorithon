@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using System.Threading.Tasks;
 using algorithon_server.Models;
 using algorithon_server.Utils.Jdoodle;
@@ -30,7 +31,45 @@ namespace algorithon_server.Controllers
             return new JdoodleResponse()
             {
                 Error = null,
-                Data = result.Result,
+                Data = JsonConvert.SerializeObject(result.Result),
+                Message = "OK"
+            };
+        }
+
+        [HttpPost]
+        [Route("submit-challenge")]
+        public JdoodleResponse SubmitChallenge(dynamic body)
+        {
+            bool[] result = new bool[] {};
+            foreach (var ts in body.TestCase)
+            {
+                string replaceProgram = body.Program.ToString().Replace("input", ts.Input);
+                JdoodleRequest request = new JdoodleRequest()
+                {
+                    Index = body.Index,
+                    Lang = body.Lang,
+                    Program = replaceProgram
+                };
+                JdoodleResponse response = this.Run(request);
+                if (response.Data)
+                {
+                    if (response.Data.Output == ts.Output)
+                    {
+                        result.ToList().Add(true);
+                        result.ToArray();
+                    }
+                    else
+                    {
+                        result.ToList().Add(false);
+                        result.ToArray();
+                    }
+                }
+            }
+
+            return new JdoodleResponse()
+            {
+                Error = null,
+                Data = result,
                 Message = "OK"
             };
         }
