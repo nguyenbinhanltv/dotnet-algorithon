@@ -1,19 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\uyent\\Desktop\\New folder (2)\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\uyent\\Desktop\\New folder (2)\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\uyent\\Desktop\\New folder (2)\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
-        "projectName": "algorithon-server",
-        "projectPath": "C:\\Users\\uyent\\Desktop\\New folder (2)\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
-        "packagesPath": "C:\\Users\\uyent\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\uyent\\Desktop\\New folder (2)\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\obj\\",
-=======
     "E:\\.Net\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj": {}
   },
   "projects": {
@@ -25,17 +12,12 @@
         "projectPath": "E:\\.Net\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\algorithon-server.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
         "outputPath": "E:\\.Net\\dotnet-algorithon\\server\\algorithon-server\\algorithon-server\\obj\\",
->>>>>>> 0d443360d3514226634e96a00a336e8b231c0e8d
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\uyent\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 0d443360d3514226634e96a00a336e8b231c0e8d
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
