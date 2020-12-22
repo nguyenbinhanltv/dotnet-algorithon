@@ -27,5 +27,20 @@ namespace algorithon_server.Controllers
             _challengeService.Create(challenge);
             return Ok();
         }
+        
+        // [HttpPut("{id:length(24)}")]
+        // public IActionResult Update(string id, Challenge challengeIn)
+        // {
+        //     var challenge = _challengeService.Get(id);
+        //
+        //     if (challenge == null)
+        //     {
+        //         return NotFound();
+        //     }
+        //
+        //     _challengeService.Update(id, challengeIn);
+        //
+        //     return NoContent();
+        // }
     }
 }

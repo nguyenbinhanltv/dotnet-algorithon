@@ -6,6 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="DnsClient" Version="1.4.0-beta-20200912.4" />
       <PackageReference Include="DotNetEnv" Version="1.4.0" />
       <PackageReference Include="IdGen" Version="3.0.0" />
       <PackageReference Include="lodash" Version="4.17.11" />

@@ -8,6 +8,10 @@ namespace algorithon_server.Interfaces
     {
         Task<List<Challenge>> Get();
 
+        Task<Challenge> Get(string challenge);
+
         Task<Challenge> Create(Challenge challenge);
+
+        void Update(string title, Challenge challenge);
     }
 }

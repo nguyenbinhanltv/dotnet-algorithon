@@ -5,6 +5,8 @@ namespace algorithon_server.Models
 {
     public class Challenge
     {
+        // [BsonId]
+        // [BsonRepresentation(BsonType.ObjectId)]
         public string Id = new IdGenerator(0).CreateId().ToString();
         
         public string Title { get; set; }
