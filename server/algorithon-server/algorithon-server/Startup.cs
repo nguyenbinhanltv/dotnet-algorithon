@@ -30,7 +30,7 @@ namespace algorithon_server
         {
             services.AddCors();
             services.AddControllers();
-
+            
             services.Configure<AppSetting>(Configuration.GetSection("AppSettings"));
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IChallengeService, ChallengeService>();
