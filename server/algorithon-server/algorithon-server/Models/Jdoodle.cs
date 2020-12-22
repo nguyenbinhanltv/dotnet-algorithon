@@ -30,7 +30,7 @@ namespace algorithon_server.Models
         public JdoodleData Data {get; set; }
     }
 
-    public class TestCase
+    public class TestCases
     {
         public dynamic Input { get; set; }
         public dynamic Output { get; set; }
@@ -46,6 +46,6 @@ namespace algorithon_server.Models
 
     public class JdoodleChallenge : JdoodleRequest
     {
-        public TestCase[] TestCase { get; set; }
+        public TestCases[] TestCase { get; set; }
     }
 }
